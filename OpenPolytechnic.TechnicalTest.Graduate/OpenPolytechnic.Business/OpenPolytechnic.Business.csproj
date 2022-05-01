@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenPolytechnic.DataContract\OpenPolytechnic.DataContract.csproj" />
+    <ProjectReference Include="..\OpenPolytechnic.Repository\OpenPolytechnic.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

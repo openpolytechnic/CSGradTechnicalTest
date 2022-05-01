@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.TechnicalTest", "OpenPolytechnic.TechnicalTest\OpenPolytechnic.TechnicalTest.csproj", "{A76B43CE-B36F-4D7F-89BB-32C5F62CB3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.Business", "OpenPolytechnic.Business\OpenPolytechnic.Business.csproj", "{838CCFC3-710A-418D-B363-D1C6F8529FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.Repository", "OpenPolytechnic.Repository\OpenPolytechnic.Repository.csproj", "{51625E6D-9D48-4B3F-8AED-04BD6038BCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.IoC", "OpenPolytechnic.IoC\OpenPolytechnic.IoC.csproj", "{BC6CA107-3A18-4E98-BB4C-85168CAFBE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.Entity", "OpenPolytechnic.Entity\OpenPolytechnic.Entity.csproj", "{BFE84E30-71E5-428B-B2C0-0EA1CCA9F78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPolytechnic.DataContract", "OpenPolytechnic.DataContract\OpenPolytechnic.DataContract.csproj", "{D6D64C08-3DC2-4D76-8807-2765AA98988F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76B43CE-B36F-4D7F-89BB-32C5F62CB3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76B43CE-B36F-4D7F-89BB-32C5F62CB3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76B43CE-B36F-4D7F-89BB-32C5F62CB3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76B43CE-B36F-4D7F-89BB-32C5F62CB3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838CCFC3-710A-418D-B363-D1C6F8529FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838CCFC3-710A-418D-B363-D1C6F8529FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838CCFC3-710A-418D-B363-D1C6F8529FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838CCFC3-710A-418D-B363-D1C6F8529FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51625E6D-9D48-4B3F-8AED-04BD6038BCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51625E6D-9D48-4B3F-8AED-04BD6038BCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51625E6D-9D48-4B3F-8AED-04BD6038BCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51625E6D-9D48-4B3F-8AED-04BD6038BCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6CA107-3A18-4E98-BB4C-85168CAFBE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6CA107-3A18-4E98-BB4C-85168CAFBE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6CA107-3A18-4E98-BB4C-85168CAFBE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6CA107-3A18-4E98-BB4C-85168CAFBE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE84E30-71E5-428B-B2C0-0EA1CCA9F78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE84E30-71E5-428B-B2C0-0EA1CCA9F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE84E30-71E5-428B-B2C0-0EA1CCA9F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE84E30-71E5-428B-B2C0-0EA1CCA9F78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D64C08-3DC2-4D76-8807-2765AA98988F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D64C08-3DC2-4D76-8807-2765AA98988F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D64C08-3DC2-4D76-8807-2765AA98988F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D64C08-3DC2-4D76-8807-2765AA98988F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBCC9AF-C952-4EEF-93CC-11B37991DD14}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<div
+  *ngIf="!!superheroes; else loadingTable"
+  class="hero-table">
+  <div
+     *ngFor="let hero of superheroes"
+     class="hero-entry">
+    <div
+      class="hero-portrait"
+      [style.background-image]="'url('+hero.profileImageUrl+')'">
+    </div>
+    <div class="hero-info">
+      <div><h3>{{hero.heroAlias}}</h3></div>
+      <div><b>Real Name:</b> {{hero.realName}}</div>
+      <div><b>Abilities:</b> {{hero.powers}}</div>
+      <div><b>Catchphrase:</b> {{hero.catchphrase}}</div>
+    </div>
+  </div>
+</div>
+<ng-template #loadingTable>
+  <div class="loading-table">
+    <div
+       *ngFor="let placeholder of loadingPlaceholders"
+       class="loading-entry">
+    </div>
+  </div>
+</ng-template>

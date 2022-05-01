@@ -1,0 +1,42 @@
+h3 {
+  margin-top: 10px;
+}
+
+.hero-table {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 50px 0px;
+}
+
+.hero-entry {
+  display: flex;
+  flex: 1 1 auto;
+  border: 1px solid #000;
+  column-gap: 15px;
+}
+
+.hero-portrait {
+  min-height: 150px;
+  width: 150px;
+  border-right: 1px solid #000;
+  flex: 0 0 150px;
+  background-size: cover;
+}
+
+.hero-info {
+  flex: 1 1 auto;
+}
+
+.loading-table {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 50px;
+}
+
+.loading-entry {
+  height: 150px;
+  background-color: rgb(168 168 168 / 0.84);
+  flex: 1 1 auto;
+}

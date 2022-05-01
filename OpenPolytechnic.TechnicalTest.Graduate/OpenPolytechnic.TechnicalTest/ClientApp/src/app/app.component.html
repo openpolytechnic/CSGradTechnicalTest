@@ -1,0 +1,12 @@
+<body>
+  <div class="hero-header">
+    <div class="hero-title">Superhero Directory</div>
+    <div class="hero-nav">
+      <a class="hero-link" [routerLink]="['/superheroes/marvel']">Marvel</a>
+      <a class="hero-link" [routerLink]="['/superheroes/dc']">DC</a>
+    </div>
+  </div>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</body>
