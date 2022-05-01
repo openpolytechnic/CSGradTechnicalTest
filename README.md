@@ -7,4 +7,5 @@ If you are having trouble with the Angular app, leave it for now and concentrate
 Helpful links: 
 
 Angular Documentation - https://angular.io/docs
+
 Microsoft Documentation - https://docs.microsoft.com/en-nz/documentation/
